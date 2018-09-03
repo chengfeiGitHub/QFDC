@@ -1,0 +1,16 @@
+datasource:
+  url: "jdbc:mysql://47.98.216.52:3306/BackupTest?useUnicode=true&amp&characterEncoding=UTF-8"
+  username: root
+  password: Suzan123
+  driver_class_name: com.mysql.jdbc.Driver
+  max_idle: 10
+  min_idle: 10
+  max_wait: 10000
+  initial_size: 5
+  validation_query: SELECT 1
+  test_on_borrow: false
+  test_while_idle: true
+  time_between_eviction_runs_millis: 18800
+
+server :
+  port: 10086
